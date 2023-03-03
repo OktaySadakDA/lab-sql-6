@@ -29,3 +29,7 @@ CREATE TABLE `films_2020` (
 # - Update information on `rental_duration`, `rental_rate`, and `replacement_cost`.
 
 select* from films_2020;
+select rental_duration,rental_rate,replacement_cost from films_2020;
+select rental_duration,rental_rate,replacement_cost from film;
+update films_2020 set rental_duration = 3, rental_rate = 2.99, replacement_cost = 8.99;
+select rental_duration,rental_rate,replacement_cost from films_2020;
